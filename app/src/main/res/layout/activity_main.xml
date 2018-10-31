@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woodbg"
+    tools:context="com.example.hp.singlescreenapp.MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..Cafe' Coffee Day.."
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ccd"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:id="@+id/phoneicon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/phon"/>
+    <TextView
+        android:id="@+id/phone1"
+        android:autoLink="phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1800 102 5093 "
+        android:layout_marginLeft="30px"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+    
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10px"
+        >
+        <ImageView
+            android:id="@+id/emailicon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/email"/>
+        <TextView
+            android:id="@+id/email"
+            android:autoLink="email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="customercare@cafecoffeeday.com"
+            android:layout_marginLeft="30px"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/websiteicon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/web"
+            android:layout_marginTop="10px"/>
+        <TextView
+            android:autoLink="all"
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://www.cafecoffeeday.com/"
+            android:layout_marginLeft="30px"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/Hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/openHours"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/openHours"
+            android:layout_marginTop="10px"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center"/>
+        
+
+
+</LinearLayout>
+
+</ScrollView>

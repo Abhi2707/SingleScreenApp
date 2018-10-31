@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SingleScreenApp</string>
+    <string name="openHours">Hours of operation -- 9 AM to 11 PM | Monday - Sunday </string>
+    <string name="address">Address: Gaurav Towers, Jawahar Lal Nehru Marg, Jaipur, 302017</string>
+
+    <string name="ccd">Café Coffee Day, a part of Coffee Day Global Limited, is India’s favourite hangout for coffee and conversations. Popularly known as CCD.</string>
+</resources>
